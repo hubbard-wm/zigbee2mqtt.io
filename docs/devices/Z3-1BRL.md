@@ -67,3 +67,14 @@ It's not possible to read (`/get`) or write (`/set`) this value.
 The minimal value is `0` and the maximum value is `255`.
 The unit of this value is `lqi`.
 
+### Home Assistant Blueprints
+Depending on your very specific unit that you receive you may have difficulty setting this switch up in Home Assistant.  There are two different user created blueprints available that might help make it easier after you have the entities for action or brightness existing within your Home Assistant environment.
+
+The generally accepted more modern version of this template that should work with most/newer devices can be found here:
+https://community.home-assistant.io/t/zigbee2mqtt-lutron-aurora-dimmer-control/287379
+
+If that blueprint doesn't help you another user has created a blueprint based on that, which works on some other variants of this same switch and can be found here:
+https://community.home-assistant.io/t/legacy-zigbee2mqtt-lutron-aurora-dimmer-control/452283
+
+One is using legacy mode and one is not.
+
